@@ -3,6 +3,11 @@
 
 O projeto tem como objetivo apresentar a menor rota de viagem do usuário.
 
+## Solução utilizada
+Utilizei a solução de grafo do **algoritmo de Dijkstra**, que soluciona o problema do caminho mais curto num grafo dirigido ou não dirigido com arestas de peso não negativo.
+
+Sendo assim, utilizei para calcular a menor distância entre duas rotas, foi NetworkX uma lib Python para a criação, manipulação, da estrutura e dinâmica e integrado a isso utilizei Injector implementar um padrão de design de injeção de dependência de uma maneira formal.
+
 ## Getting Started
 
 ``git clone https://github.com/ylgnerbecton/bexs-challenge.git ``
