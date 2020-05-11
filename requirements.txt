@@ -3,5 +3,5 @@ networkx==2.3
 dependency-injector==3.14.5
 
 # Django Rest 
-djangorestframework==3.8.2
+djangorestframework==3.9.1
 django-rest-swagger==2.2.0
