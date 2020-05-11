@@ -27,23 +27,19 @@ pip3
 -   `sudo apt-get install python3-pip`
 -   `pip3 install virtualenv`
 
-django
-
-``pip3 install Django==2.2``
-
 Pasta do projeto
 
 `cd bexs-challenge`
 
 Ambiente virtual python
 
-`python3 -m venv venv`
+`python3 -m venv .env`
 
 ## Rodando a aplicação
 
 Acesse a pasta raiz do projeto e entre no ambiente
 
-`source venv/bin/activate`
+`source .env/bin/activate`
 
 Instale os requirements do projeto
 
@@ -51,7 +47,7 @@ Instale os requirements do projeto
 
 Rodar projeto
 
-`python3 run.py runserver`
+`python3 manage.py runserver`
 
 Rodar projeto pelo console
 
@@ -66,7 +62,6 @@ Rodar projeto pelo console
 Comando para testar a aplicação
 
 `` python3 -m unittest discover -s test ``
-
 
 ## Documentação da API
 
