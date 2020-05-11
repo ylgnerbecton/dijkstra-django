@@ -2,11 +2,6 @@ Django==2.2.10
 networkx==2.3
 dependency-injector==3.14.5
 
-python-decouple==3.0
-pytz==2018.4
-requests==2.20.0
-
 # Django Rest 
 djangorestframework==3.8.2
-djangorestframework-filters==0.10.2
 django-rest-swagger==2.2.0
