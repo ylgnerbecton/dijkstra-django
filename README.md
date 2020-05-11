@@ -48,6 +48,14 @@ Rodar projeto
 
 `python3 run.py runserver`
 
+Rodar projeto pelo console
+
+ `routes-file.csv`: argumento do comando
+ 
+`python3 manage.py console routes-file.csv`
+
+![console](https://github.com/ylgnerbecton/bexs-challenge/blob/master/doc/console.png?raw=true)
+
 ## Rodando os testes
 
 Comando para testar a aplicação
@@ -61,8 +69,15 @@ Esta documentação descreve a estrutura da API e exemplos de uso.
 
 ### Acesso à API
 
+Acessar endpoit para vizualização pelo Swagger e fazer requisições
 
+Link para acessar pelo swagger `http://127.0.0.1:8000/api/`
 
+post para cadastrar novas rotas
+![get para buscar a melhor rota](https://github.com/ylgnerbecton/bexs-challenge/blob/master/doc/get.png?raw=true)
+
+get para buscar a melhor rota
+![enter image description here](https://github.com/ylgnerbecton/bexs-challenge/blob/master/doc/post.png?raw=true)
 
 ### Route
 
@@ -74,7 +89,7 @@ Os endpoints de rotas possuem a seguinte estrutura:
 
 ###  Cadastrar rota
 
-`http://127.0.0.1:8000/api/route`
+`http://127.0.0.1:8000/api/route/`
 
 **Método**: POST
 
