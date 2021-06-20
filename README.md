@@ -1,6 +1,4 @@
 
-# Bexs Challenge
-
 O projeto tem como objetivo apresentar a menor rota de viagem do usuário.
 
 ## Solução utilizada
